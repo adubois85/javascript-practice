@@ -1,0 +1,22 @@
+body {
+	color: #FFFFFF;
+	background-color: #222222;
+}
+
+h1 {
+	font-size: 2em;
+	color: #0073E5;
+}
+
+p {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	max-height: 400px;
+	max-width: 400px;
+}
