@@ -20,3 +20,10 @@ function fontChangeFamilyDoubleClick() {
 	var num = Math.floor(Math.random() * 4);
 	document.getElementById("font-change").style.fontFamily = fontFamily[num];
 }
+
+/**
+ * Changes the image from one to another when clicked
+ */
+function imageChange() {
+	document.getElementById("image-change").src = "images/guernica.jpg";
+}
