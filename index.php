@@ -11,8 +11,8 @@
 		</head>
 		<body>
 			<h1>A basic webpage to be manipulated by javascript.  More to be added later.</h1>
-			<p id="color-change" onmouseenter="fontChangeColorMouseOver()" onmouseleave="fontChangeColorMouseOut">The color of this text will change when moused over!</p><br>
-			<p id="font-change">The font face of this text will change when double-clicked!</p><br>
+			<p id="color-change" onmouseenter="fontChangeColorMouseOver()" onmouseleave="fontChangeColorMouseOut()">The color of this text will change when moused over!</p><br>
+			<p id="font-change" ondblclick="fontChangeFamilyDoubleClick()">The font face of this text will change when double-clicked!</p><br>
 			<img id="image-change" src="images/starry-night.jpg" alt="The Starry Night" />
 			<p>This image will change to a different one and back when clicked!</p>
 		</body>
