@@ -11,8 +11,12 @@
 		</head>
 		<body>
 			<h1>A basic webpage to be manipulated by javascript.  More to be added later.</h1>
-			<p id="color-change" onmouseenter="fontChangeColorMouseOver()" onmouseleave="fontChangeColorMouseOut()">The color of this text will change when moused over!</p><br>
-			<p id="font-change" ondblclick="fontChangeFamilyDoubleClick()">The font face of this text will change when double-clicked!</p><br>
+			<p id="color-change" onmouseenter="fontChangeColorMouseOver()" onmouseleave="fontChangeColorMouseOut()">
+				The color of this text will change when moused over! Every day is taco ipsum tuesday. Tacos al pastor made with adobada meat. Tacos Al pastor/De Adobada are made of thin pork steaks seasoned with adobo seasoning, then skewered and overlapped on one another on a vertical rotisserie cooked and flame-broiled as it spins. CARNE ASADA!! Tacos for breakfast, lunch and dinner. Does guac cost extra? TACOS!! Tacos al pastor made with adobada meat. Josh’s taco shack is the best taco shack. Yeah, apparently the taco shack was robbed. They left the money but took the tacos.
+			</p>
+			<p id="font-change" ondblclick="fontChangeFamilyDoubleClick()">
+				The font face of this text will change when double-clicked! Burritos are very tasty. Give me all the tacos, immediately. It’s long been rumored that the chupacabra is really just a crazed man who’s local taco shop went out of business. Does guac cost extra? Tacos, again? This will be 5 times this week and it’s only Tuesday. How do you feel about hard shelled tacos? TACOS!! Let’s do a beef and a chicken, and one with both. It’s taco Tuesday Monday. Give me all your tacos.
+			</p><br>
 			<img id="image-change" src="images/starry-night.jpg" onclick="imageChange()" alt="The Starry Night" />
 			<p>This image will change to a different one when clicked!</p>
 		</body>
