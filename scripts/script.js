@@ -29,3 +29,10 @@ function imageChange() {
 	var num = Math.floor(Math.random() * 2);
 	document.getElementById("image-change").src = images[num];
 }
+
+/**
+ * Alerts the user to enter text
+ */
+function onInputFocus() {
+	document.getElementById("input-field").
+}

@@ -19,5 +19,8 @@
 			</p><br>
 			<img id="image-change" src="images/starry-night.jpg" onclick="imageChange()" alt="The Starry Night" />
 			<p>This image will change to a different one when clicked!</p>
+
+			<label>Enter your heart's desire and submit<input type="text" id="input-field" placeholder="I desire..." onfocus=""></label>
+			<button></button>
 		</body>
 	</html>
