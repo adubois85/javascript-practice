@@ -25,5 +25,7 @@ function fontChangeFamilyDoubleClick() {
  * Changes the image from one to another when clicked
  */
 function imageChange() {
-	document.getElementById("image-change").src = "images/guernica.jpg";
+	var images = ["images/guernica.jpg", "images/starry-night.jpg"];
+	var num = Math.floor(Math.random() * 2);
+	document.getElementById("image-change").src = images[num];
 }
