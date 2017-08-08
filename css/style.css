@@ -34,3 +34,10 @@ div {
 div > p {
 	font-size: 1em;
 }
+
+#kitty-button {
+	font-size: 1em;
+	margin-bottom: 2em;
+	background-color: rebeccapurple;
+
+}
