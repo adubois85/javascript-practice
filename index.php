@@ -20,8 +20,9 @@
 			</p><br>
 			<img id="image-change" src="images/starry-night.jpg" onclick="imageChange()" alt="The Starry Night" />
 			<p>This image will change back and forth between two images when clicked!</p>
-
-			<label>Enter your heart's desire and submit<input type="text" id="input-field" placeholder="I desire..."></label>
-			<button id="button" onclick="submitButton()">Submit</button>
+			<div>
+				<label>Enter your heart's desire and submit<input type="text" id="input-field" placeholder="I desire..."></label>
+				<button id="button" onclick="submitButton()">Submit</button>
+			</div>
 		</body>
 	</html>
