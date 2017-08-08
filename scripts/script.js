@@ -21,7 +21,6 @@ function fontChangeFamilyDoubleClick() {
 	document.getElementById("font-change").style.fontFamily = fontFamily[num];
 }
 
-
 // I normally wouldn't leave dead code in, but I thought it important to see the progression in this case.
 // function imageChange() {
 // 	var images = ["images/guernica.jpg", "images/starry-night.jpg"];
@@ -44,13 +43,9 @@ function imageChange() {
 	}
 }
 
-
-
-
-
 /**
  * Alerts the user to enter text
  */
-//function onInputFocus() {
-//	document.getElementById("input-field").
-//}
+function submitButton() {
+	window.alert("Really?  Talk about silly.");
+}
