@@ -21,18 +21,36 @@ function fontChangeFamilyDoubleClick() {
 	document.getElementById("font-change").style.fontFamily = fontFamily[num];
 }
 
+
+// I normally wouldn't leave dead code in, but I thought it important to see the progression in this case.
+// function imageChange() {
+// 	var images = ["images/guernica.jpg", "images/starry-night.jpg"];
+// 	var num = Math.floor(Math.random() * 2);
+// 	document.getElementById("image-change").src = images[num];
+// }
+
 /**
  * Changes the image from one to another when clicked
  */
+
+var imageChangeCounter = 0;
 function imageChange() {
-	var images = ["images/guernica.jpg", "images/starry-night.jpg"];
-	var num = Math.floor(Math.random() * 2);
-	document.getElementById("image-change").src = images[num];
+	if (imageChangeCounter === 0) {
+		imageChangeCounter = 1;
+		document.getElementById("image-change").src = "images/guernica.jpg";
+	} else {
+		imageChangeCounter = 0;
+		document.getElementById("image-change").src = "images/starry-night.jpg";
+	}
 }
+
+
+
+
 
 /**
  * Alerts the user to enter text
  */
-function onInputFocus() {
-	document.getElementById("input-field").
-}
+//function onInputFocus() {
+//	document.getElementById("input-field").
+//}
