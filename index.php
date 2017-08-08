@@ -23,7 +23,7 @@
 
 			<div>
 				<p>This button will find all instances of the word "taco" and replace it with kitten.</p>
-				<button id="kitty-button" onclick="kittyButton">Kitty!</button>
+				<button id="kitty-button" onclick="kittyButton()">Kitty!</button>
 			</div>
 
 			<div>

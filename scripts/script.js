@@ -55,5 +55,5 @@ function submitButton() {
  */
 
 function kittyButton() {
-	str.replace(/taco/gi, "kitten");
+	document.body.innerHTML = document.body.innerHTML.replace(/taco/gi, "kitten");
 }
