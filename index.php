@@ -10,6 +10,7 @@
 			<title>Some Fun With Javascript!</title>
 		</head>
 		<body>
+			<h1>Test header to see if I configured my Windows computer correctly.</h1>
 			<h1>A basic webpage to be manipulated by javascript.  More to be added later.</h1>
 			<p id="color-change" onmouseenter="fontChangeColorMouseOver()" onmouseleave="fontChangeColorMouseOut()">
 				The color of this text will change when moused over! Every day is taco ipsum tuesday. Tacos al pastor made with adobada meat. Tacos Al pastor/De Adobada are made of thin pork steaks seasoned with adobo seasoning, then skewered and overlapped on one another on a vertical rotisserie cooked and flame-broiled as it spins. CARNE ASADA!! Tacos for breakfast, lunch and dinner. Does guac cost extra? TACOS!! Tacos al pastor made with adobada meat. Josh’s taco shack is the best taco shack. Yeah, apparently the taco shack was robbed. They left the money but took the tacos.
