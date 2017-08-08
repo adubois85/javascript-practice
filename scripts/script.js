@@ -49,3 +49,11 @@ function imageChange() {
 function submitButton() {
 	window.alert("Really?  Talk about silly.");
 }
+
+/**
+ * This function will find and replace instaces of the word taco with kitten
+ */
+
+function kittyButton() {
+	str.replace(/taco/gi, "kitten");
+}
