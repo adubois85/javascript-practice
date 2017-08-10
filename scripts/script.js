@@ -69,12 +69,13 @@ function kittyButton() {
 // 	});
 // });
 
-$('#bacon-button').click(function(){
+$("#bacon-button").click(function(){
 	$.ajax({
 		method: 'get',
 		url: 'https://baconipsum.com/api/?type=all-meat&paras=1',
 		success: function(data) {
-			$('bacon-container').append('<p>' + data + '</p>');
+			$('bacon-container').append('<p> data </p>');
 		}
 	});
 });
+
