@@ -58,14 +58,23 @@ function kittyButton() {
 	document.body.innerHTML = document.body.innerHTML.replace(/taco/gi, "kitten");
 }
 
-$('.bacon').click(function(){
+// $('.bacon').click(function(){
+// 	$.ajax({
+// 		type: 'GET',
+// 		url: 'https://baconipsum.com/api/?type=all-meat&paras=1',
+// 		success: function (data){
+// 				$('.bacon').append('<p>'. data .'</p>')
+// 			});
+// 		}
+// 	});
+// });
+
+$('#bacon-button').click(function(){
 	$.ajax({
-		type: 'GET',
+		method: 'get',
 		url: 'https://baconipsum.com/api/?type=all-meat&paras=1',
-		success: function (data){
-			$.each(data, function(){
-				$('.bacon').append('<p>'. data .'</p>')
-			});
+		success: function(data) {
+			$('bacon-container').append('<p>' + data + '</p>');
 		}
 	});
 });

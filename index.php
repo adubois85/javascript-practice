@@ -32,6 +32,9 @@
 			</div>
 			<div class="bacon">
 				<button id="bacon-button">Mmm, bacon</button>
+				<div id="bacon-container">
+
+				</div>
 			</div>
 		</body>
 	</html>
