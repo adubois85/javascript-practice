@@ -7,6 +7,8 @@
 			<link rel="stylesheet" href="css/style.css" type="text/css" />
 			<!--A custom Javascript file-->
 			<script type="text/javascript" src="scripts/script.js"></script>
+			<!-- linking the jQuery library-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 			<title>Some Fun With Javascript!</title>
 		</head>
 		<body>
@@ -33,7 +35,6 @@
 			<div class="bacon">
 				<button id="bacon-button">Mmm, bacon</button>
 				<div id="bacon-container">
-
 				</div>
 			</div>
 		</body>
