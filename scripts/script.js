@@ -100,6 +100,9 @@ function kittyButton() {
 
 // Copied from Rochelle's example
 /* jQuery AJAX Request */
+// This one wasn't working, then I took it to code pen and tried again, and now it works.
+// Because of course it does.
+
 $(document).ready(function() {
 	$("#bacon-button").click(function() {
 		$.ajax({
