@@ -58,14 +58,13 @@ function kittyButton() {
 	document.body.innerHTML = document.body.innerHTML.replace(/taco/gi, "kitten");
 }
 
-$(function (){
-	var $baconDiv = $('.bacon');
+$('.bacon').click(function(){
 	$.ajax({
 		type: 'GET',
 		url: 'https://baconipsum.com/api/?type=all-meat&paras=1',
-		success: function (raw){
-			$.each(raw, function(i, bacon){
-				$baconDiv.append('<p> bacon[i] </p>')
+		success: function (data){
+			$.each(data, function(){
+				$('.bacon').append('<p>'. data .'</p>')
 			});
 		}
 	});
