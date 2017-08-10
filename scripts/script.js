@@ -69,19 +69,16 @@ function kittyButton() {
 // 	});
 // });
 
-$baconGet(function(){
-	var $bacon = $('#bacon-container');
-	$.ajax({
-		method: 'GET',
-		url: 'https://baconipsum.com/api/?type=all-meat&paras=1',
-		success: function(bacon) {
-			$.each(bacon, function(i, data) {
-				$bacon.append('<p>' + data.selectorText + '</p>');
-			})
-			
-		}
-	});
-});
+// $baconGet(function(){
+// 	var $bacon = $('#bacon-container');
+// 	$.ajax({
+// 		method: 'GET',
+// 		url: 'https://baconipsum.com/api/?type=all-meat&paras=1',
+// 		success: function(data) {
+// 				$bacon.append('<p>' + data + '</p>');
+// 		}
+// 	});
+// });
 
 // Let's try to do this with flat javascript
 // var baconContainer = document.getElementById("bacon-container");
@@ -100,3 +97,17 @@ $baconGet(function(){
 // function renderHTML(jsonData) {
 // 	baconContainer.insertAdjacentHTML('beforeend', jsonData);
 // }
+
+// Copied from Rochelle's example
+/* jQuery AJAX Request */
+$(document).ready(function() {
+	$("#bacon-button").click(function() {
+		$.ajax({
+			method: "GET",
+			url: "https://baconipsum.com/api/?type=all-meat&paras=1"
+		}).done(function(reply) {
+			$("#bacon-container").html(reply);
+			console.log("you have jquery flavored bacon!");
+		});
+	});
+});
