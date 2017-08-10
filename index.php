@@ -30,7 +30,7 @@
 				<label>Enter your heart's desire and submit<input type="text" id="input-field" placeholder="I desire..."></label>
 				<button id="button" onclick="submitButton()">Submit</button>
 			</div>
-			<div>
+			<div class="bacon">
 				<button id="bacon-button">Mmm, bacon</button>
 			</div>
 		</body>
