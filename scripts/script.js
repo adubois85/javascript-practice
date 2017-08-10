@@ -69,31 +69,30 @@ function kittyButton() {
 // 	});
 // });
 
-// $("#bacon-button").click(function(){
-// 	$.ajax({
-// 		method: 'get',
-// 		url: 'https://baconipsum.com/api/?type=all-meat&paras=1',
-// 		success: function(data) {
-// 			$('bacon-container').append('<p> data </p>');
-// 		}
-// 	});
-// });
-
-// Let's try to do this with flat javascript
-var baconContainer = document.getElementById("bacon-container");
-var baconButton = document.getElementById("bacon-button");
-
-baconButton.addEventListener("click", funciton() {
-	var request = new XMLHttpRequest();
-	request.open('GET', 'https://baconipsum.com/api/?type=all-meat&paras=1');
-	request.onload = function() {
-		var data = JSON.parse(request.responseText);
-		renderHTML(data);
-	};
-	request.send();
+$("#bacon-button").click(function(){
+	$.ajax({
+		method: 'GET',
+		url: 'https://baconipsum.com/api/?type=a ll-meat&paras=1',
+		success: function(data) {
+			console.log('success', data);
+		}
+	});
 });
 
-function renderHTML(jsonData) {
-	var jsonString = jsonData;
-	baconContainer.insertAdjacentHTML('beforeend', jsonString);
-}
+// Let's try to do this with flat javascript
+// var baconContainer = document.getElementById("bacon-container");
+// var baconButton = document.getElementById("bacon-button");
+//
+// baconButton.addEventListener("click", function() {
+// 	var request = new XMLHttpRequest();
+// 	request.open('GET', 'https://baconipsum.com/api/?type=all-meat&paras=1');
+// 	request.onload = function() {
+// 		var data = JSON.parse(request.responseText);
+// 		renderHTML(data);
+// 	};
+// 	request.send();
+// });
+//
+// function renderHTML(jsonData) {
+// 	baconContainer.insertAdjacentHTML('beforeend', jsonData);
+// }
