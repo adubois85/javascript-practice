@@ -69,12 +69,16 @@ function kittyButton() {
 // 	});
 // });
 
-$("#bacon-button").click(function(){
+$baconGet(function(){
+	var $bacon = $('#bacon-container');
 	$.ajax({
 		method: 'GET',
-		url: 'https://baconipsum.com/api/?type=a ll-meat&paras=1',
-		success: function(data) {
-			console.log('success', data);
+		url: 'https://baconipsum.com/api/?type=all-meat&paras=1',
+		success: function(bacon) {
+			$.each(bacon, function(i, data) {
+				$bacon.append('<p>' + data.selectorText + '</p>');
+			})
+			
 		}
 	});
 });
