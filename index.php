@@ -1,17 +1,17 @@
 <!DOCTYPE HTML>
 	<html lang="en">
-		<head>
-			<meta charset="utf-8" />
-			<meta name="viewport" content="width=device-width, initial-scale=1" />
-			<!-- A custom CSS stylesheet-->
-			<link rel="stylesheet" href="css/style.css" type="text/css" />
-			<!--A custom Javascript file-->
-			<script type="text/javascript" src="scripts/script.js"></script>
-			<!-- linking the jQuery library-->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-			<title>Some Fun With Javascript!</title>
-		</head>
-		<body>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- linking the jQuery library-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- A custom CSS stylesheet-->
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<!--A custom Javascript file-->
+		<script type="text/javascript" src="scripts/script.js"></script>
+		<title>Some Fun With Javascript!</title>
+	</head>
+	<body>
 			<h1>Test header to see if I configured my Windows computer correctly.</h1>
 			<h1>A basic webpage to be manipulated by javascript.  More to be added later.</h1>
 			<p id="color-change" onmouseenter="fontChangeColorMouseOver()" onmouseleave="fontChangeColorMouseOut()">
@@ -38,4 +38,4 @@
 				</div>
 			</div>
 		</body>
-	</html>
+</html>
