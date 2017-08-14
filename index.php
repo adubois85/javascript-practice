@@ -60,13 +60,13 @@
 						<button class="btn btn-lg btn-danger col-md-3 col-xs-6" id="kitty-button" onclick="kittyButton()">Kitty!</button>
 					</div>
 					<div class="puppy-button-container">
-						<button class="btn btn-lg btn-danger col-md-3 col-xs-6" id="puppy-button">Puppy!</button>
+						<button class="btn btn-lg btn-primary col-md-3 col-xs-6" id="puppy-button">Puppy!</button>
 					</div>
 					<div class="koi-button-container">
-						<button class="btn btn-lg btn-danger col-md-3 col-xs-6" id="koi-button">Koi!</button>
+						<button class="btn btn-lg btn-warning col-md-3 col-xs-6" id="koi-button">Koi!</button>
 					</div>
 					<div class="platypus-button-container">
-						<button class="btn btn-lg btn-danger col-md-3 col-xs-6" id="platypus-button">Platypus?</button>
+						<button class="btn btn-lg btn-info col-md-3 col-xs-6" id="platypus-button">Platypus?</button>
 					</div>
 				</div>
 				<div class="desire-input-container">
