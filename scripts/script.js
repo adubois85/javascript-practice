@@ -124,3 +124,4 @@ function makeTacoReplacer(replace) {
 var replaceKitten = makeTacoReplacer("kitten");
 var replacePuppy = makeTacoReplacer("puppy");
 var replaceKoi = makeTacoReplacer("koi");
+var replacePlatypus = makeTacoReplacer("platypus");
