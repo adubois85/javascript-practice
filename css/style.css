@@ -4,40 +4,14 @@ body {
 }
 
 h1 {
-	font-size: 2em;
 	color: #0073E5;
 	text-align: center;
 }
 
 p {
-	font-size: 1.5em;
 	text-align: justify;
 }
 
 img + p {
 	text-align: center;
-}
-
-img {
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	max-height: 400px;
-	max-width: 400px;
-}
-
-div {
-	text-align: center;
-	font-size: 2em;
-}
-
-div > p {
-	font-size: 1em;
-}
-
-#kitty-button {
-	font-size: 1em;
-	margin-bottom: 2em;
-	background-color: rebeccapurple;
-
 }

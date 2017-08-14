@@ -14,8 +14,8 @@
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-		<!-- A custom CSS stylesheet
-		<link rel="stylesheet" href="css/style.css" type="text/css" /> -->
+		<!-- A custom CSS stylesheet-->
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
 
 		<title>Some Fun With Javascript!</title>
 	</head>
@@ -40,7 +40,10 @@
 		</section>
 		<section>
 			<div class="container">
-				<img id="image-change" src="images/starry-night.jpg" onclick="imageChange()" alt="The Starry Night" />
+				<img class="img-responsive" height="400" width="400" id="image-change" src="images/starry-night.jpg"
+					  onclick="imageChange()"
+					  alt="The
+				Starry Night" />
 				<p>This image will change back and forth between two images when clicked!</p>
 			</div>
 		</section>
@@ -48,11 +51,11 @@
 			<div class="container">
 				<div class="kitty-button-container">
 					<p>This button will find all instances of the word "taco" and replace it with kitten.</p>
-					<button id="kitty-button" onclick="kittyButton()">Kitty!</button>
+					<button class="btn btn-lg btn-danger" id="kitty-button" onclick="kittyButton()">Kitty!</button>
 				</div>
 				<div class="desire-input-container">
 					<label>Enter your heart's desire and submit<input type="text" id="input-field" placeholder="I desire..."></label>
-					<button id="button" onclick="submitButton()">Submit</button>
+					<button class="btn btn-lg btn-default" id="button" onclick="submitButton()">Submit</button>
 				</div>
 			</div>
 		</section>
