@@ -114,3 +114,13 @@ $(document).ready(function() {
 		});
 	});
 });
+
+function makeTacoReplacer(replace) {
+	return function() {
+		document.body.innerHTML = document.body.innerHTML.replace(/taco/gi, replace);
+	}
+}
+
+var replaceKitten = makeTacoReplacer("kitten");
+var replacePuppy = makeTacoReplacer("puppy");
+var replaceKoi = makeTacoReplacer("koi");
