@@ -54,9 +54,20 @@
 		</section>
 		<section>
 			<div class="container">
-				<div class="kitty-button-container">
-					<p>This button will find all instances of the word "taco" and replace it with kitten.</p>
-					<button class="btn btn-lg btn-danger" id="kitty-button" onclick="kittyButton()">Kitty!</button>
+				<div class="buttons-container">
+					<p>This button will find all instances of the word "taco" and replace it with another word.</p>
+					<div class="kitty-button-container">
+						<button class="btn btn-lg btn-danger col-md-3 col-xs-6" id="kitty-button" onclick="kittyButton()">Kitty!</button>
+					</div>
+					<div class="puppy-button-container">
+						<button class="btn btn-lg btn-danger col-md-3 col-xs-6" id="puppy-button">Puppy!</button>
+					</div>
+					<div class="koi-button-container">
+						<button class="btn btn-lg btn-danger col-md-3 col-xs-6" id="koi-button">Koi!</button>
+					</div>
+					<div class="platypus-button-container">
+						<button class="btn btn-lg btn-danger col-md-3 col-xs-6" id="platypus-button">Platypus?</button>
+					</div>
 				</div>
 				<div class="desire-input-container">
 					<label>Enter your heart's desire and submit<input type="text" id="input-field" placeholder="I desire..."></label>
@@ -66,8 +77,8 @@
 		</section>
 		<section>
 			<div class="container">
-				<div class="bacon">
-					<button id="bacon-button">Mmm, bacon</button>
+				<div class="bacon text-center">
+					<button class="btn btn-lg btn-success" id="bacon-button">Mmm, bacon</button>
 					<div id="bacon-container">
 					</div>
 				</div>
